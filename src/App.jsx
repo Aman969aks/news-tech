@@ -11,20 +11,16 @@ function App() {
       <Navbar />
 
       <main className="main-section">
-
         <h1>Latest News</h1>
 
         <div className="news-container">
-
           {newsData.map((news) => (
             <NewsCard
               key={news.id}
               news={news}
             />
           ))}
-
         </div>
-
       </main>
 
       <Footer />
